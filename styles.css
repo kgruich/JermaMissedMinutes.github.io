@@ -21,31 +21,13 @@ header {
 }
 
 .top {
-    text-align: center;
-    padding: 5px;
     font-weight: 800;
-    background-color: #35C1CA;
-    color: white;
-    font-family: 'Raleway',sans-serif;
-    height: 11vh;
-    font-size: 5vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .section {
-    text-align: center;
-    padding: 5px;
     font-weight: 600;
-    background-color: #35C1CA;
-    color: white;
-    font-family: 'Raleway',sans-serif;
     height: 5vh;
     font-size: 3vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 li {
