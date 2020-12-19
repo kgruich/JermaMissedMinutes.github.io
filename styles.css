@@ -5,11 +5,18 @@ body
     margin: 0px;
 }
 
-li {
-    text-align: left;
-    font-size: 97%;
-    margin-top: 15px;
-    margin-bottom: 15px;
+h1 {
+    text-align: center;
+    padding: 5px;
+    font-weight: normal;
+    background-color: #35C1CA;
+    color: white;
+    font-family: 'Raleway',sans-serif;
+    height: 5vh;
+    font-size: 4vh;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
 }
 
 header {
@@ -23,6 +30,14 @@ header {
     font-size: 3vh;
     justify-content: center;
     align-items: center;
+    font-weight: 800;
+}
+
+li {
+    text-align: left;
+    font-size: 97%;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 article {
