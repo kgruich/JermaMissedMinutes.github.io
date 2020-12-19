@@ -5,7 +5,7 @@ body
     margin: 0px;
 }
 
-header.top {
+.top {
     text-align: center;
     padding: 5px;
     font-weight: normal;
@@ -19,7 +19,7 @@ header.top {
     font-weight: 600;
 }
 
-header.section {
+.section {
     text-align: center;
     padding: 5px;
     font-weight: normal;
