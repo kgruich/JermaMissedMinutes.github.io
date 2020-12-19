@@ -5,7 +5,7 @@ body
     margin: 0px;
 }
 
-h1 {
+header {
     text-align: center;
     padding: 5px;
     font-weight: normal;
@@ -17,3 +17,74 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+
+article {
+    font-family: 'Raleway', sans-serif;
+    font-size: 150%;
+    line-height: 200%;
+    text-align: center;
+    background-color: #404040;
+    color: white;
+}
+
+article > div {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.onTime {
+    text-align: left;
+    background-color: gold;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.early {
+    text-align: left;
+    background-color: green;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.earlyAll {
+    text-align: left;
+    background-color: darkgreen;
+    display: none;
+    overflow: hidden;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.late {
+    text-align: left;
+    background-color: red;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.lateeAll {
+    text-align: left;
+    background-color: darkred;
+    display: none;
+    overflow: hidden;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.collapsible {
+    background-color: dimgrey;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+
