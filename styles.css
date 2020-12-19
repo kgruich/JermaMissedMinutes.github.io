@@ -36,9 +36,20 @@ article > div {
 
 .onTime {
     text-align: left;
-    background-color: gold;
+    background-color: #FFD700;
     padding-bottom: 30px;
     padding-top: 20px;
+}
+
+.onTime > .lh {
+    text-align: left;
+    text-align: center;
+    font-size: 105%;
+    width: 100vw;
+    background-color: #D1B000;
+    margin-left: -10.5vw;
+    margin-top: -20px;
+    margin-bottom: 5px;
 }
 
 .early {
@@ -48,9 +59,20 @@ article > div {
     padding-top: 20px;
 }
 
+.early > .lh {
+    text-align: left;
+    text-align: center;
+    font-size: 105%;
+    width: 100vw;
+    background-color: darkgreen;
+    margin-left: -10.5vw;
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
+
 .earlyAll {
     text-align: left;
-    background-color: darkgreen;
+    background-color: darkolivegreen;
     display: none;
     overflow: hidden;
     padding-bottom: 30px;
@@ -64,9 +86,20 @@ article > div {
     padding-top: 20px;
 }
 
+.late > .lh {
+    text-align: left;
+    text-align: center;
+    font-size: 105%;
+    width: 100vw;
+    background-color: darkred;
+    margin-left: -10.5vw;
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
+
 .lateAll {
     text-align: left;
-    background-color: darkred;
+    background-color: indianred;
     display: none;
     overflow: hidden;
     padding-bottom: 30px;
