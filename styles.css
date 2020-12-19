@@ -1,0 +1,19 @@
+﻿@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap');
+body
+{
+    margin: 0px;
+}
+
+header {
+    text-align: center;
+    padding: 5px;
+    font-weight: normal;
+    background-color: #a32222;
+    color: white;
+    font-family: 'Raleway',sans-serif;
+    height: 11vh;
+    font-size: 3vh;
+    justify-content: center;
+    align-items: center;
+}
