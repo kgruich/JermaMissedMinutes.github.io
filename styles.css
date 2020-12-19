@@ -141,6 +141,9 @@ article > div {
     width: 100%;
     border: none;
     outline: none;
+    text-align: center;
+    font-size: 150%;
+    line-height: 200%;
 }
 
 .active, .collapsible:hover {
