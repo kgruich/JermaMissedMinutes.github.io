@@ -9,7 +9,7 @@ header {
     text-align: center;
     padding: 5px;
     font-weight: normal;
-    background-color: #a32222;
+    background-color: #35C1CA;
     color: white;
     font-family: 'Raleway',sans-serif;
     height: 11vh;
@@ -23,7 +23,7 @@ article {
     font-size: 150%;
     line-height: 200%;
     text-align: center;
-    background-color: #404040;
+    background-color: #333133;
     color: white;
 }
 
@@ -42,7 +42,6 @@ article > div {
 }
 
 .onTime > .lh {
-    text-align: left;
     text-align: center;
     font-size: 105%;
     width: 100vw;
@@ -60,7 +59,6 @@ article > div {
 }
 
 .early > .lh {
-    text-align: left;
     text-align: center;
     font-size: 105%;
     width: 100vw;
@@ -87,7 +85,6 @@ article > div {
 }
 
 .late > .lh {
-    text-align: left;
     text-align: center;
     font-size: 105%;
     width: 100vw;
