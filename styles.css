@@ -18,9 +18,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow:hidden;
 }
 
 .top {
+    font-size: 4vh;
     font-weight: 800;
 }
 
