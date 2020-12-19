@@ -51,6 +51,12 @@ article > div {
     margin-bottom: 5px;
 }
 
+.onTime > li {
+	font-size: 97%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
 .early {
     text-align: left;
     background-color: green;
@@ -68,6 +74,12 @@ article > div {
     margin-bottom: 5px;
 }
 
+.early > li {
+    font-size: 97%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .earlyAll {
     text-align: left;
     background-color: darkolivegreen;
@@ -75,6 +87,12 @@ article > div {
     overflow: hidden;
     padding-bottom: 30px;
     padding-top: 20px;
+}
+
+.earlyAll > li {
+    font-size: 97%;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .late {
@@ -94,6 +112,12 @@ article > div {
     margin-bottom: 5px;
 }
 
+.late > li {
+    font-size: 97%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .lateAll {
     text-align: left;
     background-color: indianred;
@@ -102,6 +126,13 @@ article > div {
     padding-bottom: 30px;
     padding-top: 20px;
 }
+
+.lateAll > li {
+    font-size: 97%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .collapsible {
     background-color: dimgrey;
     color: white;
