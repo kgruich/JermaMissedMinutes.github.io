@@ -7,8 +7,22 @@ body
 
 .top {
     text-align: center;
+    padding: 5vh;
+    padding-bottom: .5vh;
+    font-weight: 800;
+    background-color: #35C1CA;
+    color: white;
+    font-family: 'Raleway',sans-serif;
+    height: 11vh;
+    font-size: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    text-align: center;
     padding: 5px;
-    font-weight: normal;
+    font-weight: 600;
     background-color: #35C1CA;
     color: white;
     font-family: 'Raleway',sans-serif;
@@ -16,21 +30,6 @@ body
     font-size: 4vh;
     justify-content: center;
     align-items: center;
-    font-weight: 600;
-}
-
-.section {
-    text-align: center;
-    padding: 5px;
-    font-weight: normal;
-    background-color: #35C1CA;
-    color: white;
-    font-family: 'Raleway',sans-serif;
-    height: 11vh;
-    font-size: 3vh;
-    justify-content: center;
-    align-items: center;
-    font-weight: 800;
 }
 
 li {
