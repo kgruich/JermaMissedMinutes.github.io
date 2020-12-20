@@ -1,5 +1,6 @@
 var coll = document.getElementsByClassName("collapsible");
 var i;
+var j;
 
 for (i = 0; i < coll.length; i++) {
     coll[i].addEventListener("click", function () {
@@ -11,4 +12,19 @@ for (i = 0; i < coll.length; i++) {
             content.style.maxHeight = content.scrollHeight + "px";
         }
     });
+}
+
+function changeImageRats() {
+    if (document.getElementByClassName("slidingBackground").id = "slidingRatMonkaS") {
+        this.id = "slidingRatChomp";
+    }
+    else if (document.getElementByClassName("slidingBackground").id = "slidingRatChomp") {
+        this.id = "slidingRatMonkaS";
+    }
+    else if (document.getElementByClassName("slidingBackground").id = "slidingPluto") {
+        this.id = "slidingRad";
+    }
+    else if (document.getElementByClassName("slidingBackground").id = "slidingRad") {
+        this.id = "slidingPluto";
+    }
 }
