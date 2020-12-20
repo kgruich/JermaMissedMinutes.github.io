@@ -134,6 +134,26 @@ article > div {
     padding-top: 20px;
 }
 
+#fulfilledTitle {
+    text-align: center;
+    font-size: 105%;
+    width: 100vw;
+    background-color: darkgreen;
+    margin-left: -10.5vw;
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
+
+#unfulfilledTitle {
+    text-align: center;
+    font-size: 105%;
+    width: 100vw;
+    background-color: darkred;
+    margin-left: -10.5vw;
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
+
 .collapsible {
     background-color: dimgrey;
     color: white;
