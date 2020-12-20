@@ -206,9 +206,10 @@ a:active {
 
 .sliding-background {
     background: url("images/Jermapluto.png") repeat;
+    background-color: #333133;
     height: 3240px;
     width: 3240px;
-    animation: slide 60s linear infinite;
+    animation: slide 20s linear infinite;
 }
 
 @keyframes slide {
