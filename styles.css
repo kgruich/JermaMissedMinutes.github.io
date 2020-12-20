@@ -102,10 +102,8 @@ article > div {
 .earlyAll {
     text-align: left;
     background-color: darkolivegreen;
-    display: none;
     overflow: hidden;
-    padding-bottom: 30px;
-    padding-top: 20px;
+    padding: 0 18px;
     transition: max-height 0.2s ease-out;
     max-height: 0;
 }
@@ -130,10 +128,8 @@ article > div {
 .lateAll {
     text-align: left;
     background-color: indianred;
-    display: none;
     overflow: hidden;
-    padding-bottom: 30px;
-    padding-top: 20px;
+    padding: 0 18px;
     transition: max-height 0.2s ease-out;
     max-height: 0;
 }
