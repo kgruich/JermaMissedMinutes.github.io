@@ -205,9 +205,9 @@ a:active {
 }
 
 .slidingBackground {
-    height: 3240px;
-    width: 3240px;
-    margin-bottom: -2700px;
+    height: 3248px;
+    width: 3248px;
+    margin-bottom: -2688px;
     animation: slide 20s linear infinite;
 }
 
@@ -217,7 +217,7 @@ a:active {
 }
 
 #slidingPlutos {
-    background: url("images/Jermapluto.png") repeat;
+    background: url("images/JermaPluto.png") repeat;
     background-color: #333133;
 }
 
@@ -225,7 +225,33 @@ a:active {
     0%{
           transform: translate3d(0, 0, 0);
       }
-    100%{
-        transform: translate3d(-1080px, -1080px, 0)
+    100% {
+        transform: translate3d(-1120px, -1120px, 0)
     }
+}
+
+#counterMinutes {
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    font-family: 'Raleway',sans-serif;
+    height: 11vh;
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#counterPromises {
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    font-family: 'Raleway',sans-serif;
+    height: 11vh;
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
