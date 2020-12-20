@@ -199,3 +199,34 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
+
+.wrapper {
+    overflow: hidden;
+}
+
+.slidingBackground {
+    height: 3248px;
+    width: 3248px;
+    margin-bottom: -2688px;
+    animation: slide 20s linear infinite;
+}
+
+#slidingRats {
+    background: url("images/RatMonkaS.png") repeat;
+    background-color: #333133;
+}
+
+#slidingPlutos {
+    background: url("images/JermaPluto.png") repeat;
+    background-color: #333133;
+}
+
+@keyframes slide {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-1120px, -1120px, 0)
+    }
+}
