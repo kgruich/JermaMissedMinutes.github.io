@@ -1,5 +1,4 @@
 var coll = document.getElementsByClassName("collapsible");
-var back = document.getElementsByClassName("slidingBackground");
 
 var i;
 
@@ -14,6 +13,10 @@ for (i = 0; i < coll.length; i++) {
         }
     });
 }
+
+var back = document.getElementsByClassName("slidingBackground");
+
+var j;
 
 function changeImage() {
     for (j = 0; j < back.length; j++) {
