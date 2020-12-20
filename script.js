@@ -17,7 +17,7 @@ for (i = 0; i < coll.length; i++) {
 var crackTime = new Audio('sounds/crackTime.mp3')
 var pogSFX = new Audio('sounds/jermaPog.mp3')
 var monkaS = new Audio('sounds/monkaS.mp3')
-var sad = new Audio('sounds/sad.mp3')
+var sad = new Audio('sounds/sadStory.mp3')
 var back = document.getElementsByClassName("slidingBackground");
 
 function changeImageRats() {
