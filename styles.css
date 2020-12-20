@@ -198,11 +198,6 @@ a:active {
     color: grey;
     background-color: transparent;
     text-decoration: underline;
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> 4e329399ffacf0619533d991311ba02d3bfa5017
 }
 
 .wrapper {
@@ -216,36 +211,26 @@ a:active {
     animation: slide 20s linear infinite;
 }
 
-<<<<<<< HEAD
 #slidingRatMonkaS {
-=======
-#slidingRats {
->>>>>>> 4e329399ffacf0619533d991311ba02d3bfa5017
     background: url("images/RatMonkaS.png") repeat;
     background-color: #333133;
 }
 
-<<<<<<< HEAD
 #slidingRatChomp {
     background: url("images/RatChomp.png") repeat;
     background-color: #333133;
 }
 
-=======
->>>>>>> 4e329399ffacf0619533d991311ba02d3bfa5017
-#slidingPlutos {
+#slidingPluto {
     background: url("images/JermaPluto.png") repeat;
     background-color: #333133;
 }
 
-<<<<<<< HEAD
 #slidingSmile {
     background: url("images/JermaSmile.png") repeat;
     background-color: #333133;
 }
 
-=======
->>>>>>> 4e329399ffacf0619533d991311ba02d3bfa5017
 @keyframes slide {
     0% {
         transform: translate3d(0, 0, 0);
@@ -254,8 +239,4 @@ a:active {
     100% {
         transform: translate3d(-1120px, -1120px, 0)
     }
-<<<<<<< HEAD
->>>>>>> Stashed changes
-=======
->>>>>>> 4e329399ffacf0619533d991311ba02d3bfa5017
 }
