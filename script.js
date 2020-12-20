@@ -19,7 +19,6 @@ var pogSFX = new Audio('sounds/jermaPog.mp3')
 var monkaS = new Audio('sounds/monkaS.mp3')
 var noLifeNerd = new Audio('sounds/noLifeNerd.mp3')
 var back = document.getElementsByClassName("slidingBackground");
-var j;
 
 function changeImageRats() {
     if (back[0].id == "slidingRatMonkaS") {
