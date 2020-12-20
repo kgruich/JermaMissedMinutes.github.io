@@ -106,6 +106,8 @@ article > div {
     overflow: hidden;
     padding-bottom: 30px;
     padding-top: 20px;
+    transition: max-height 0.2s ease-out;
+    max-height: 0;
 }
 
 .late {
@@ -132,6 +134,8 @@ article > div {
     overflow: hidden;
     padding-bottom: 30px;
     padding-top: 20px;
+    transition: max-height 0.2s ease-out;
+    max-height: 0;
 }
 
 #fulfilledTitle {
