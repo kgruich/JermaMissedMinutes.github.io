@@ -204,11 +204,21 @@ a:active {
     overflow: hidden;
 }
 
-.sliding-background {
+#slidingRats {
+    background: url("images/RatMonkaS.png") repeat;
+    background-color: #333133;
+    height: 3240px;
+    width: 3240px;
+    margin-bottom: -2700px;
+    animation: slide 20s linear infinite;
+}
+
+#slidingPlutos {
     background: url("images/Jermapluto.png") repeat;
     background-color: #333133;
     height: 3240px;
     width: 3240px;
+    margin-bottom: -2700px;
     animation: slide 20s linear infinite;
 }
 
