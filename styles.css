@@ -171,3 +171,26 @@ article > div {
     background-color: #555;
 }
 
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: lightgray;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: grey;
+    background-color: transparent;
+    text-decoration: underline;
+}
