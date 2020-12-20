@@ -14,7 +14,7 @@ for (i = 0; i < coll.length; i++) {
     });
 }
 
-function changeImageRats() {
+function changeImage() {
     if (document.getElementByClassName("slidingBackground").id = "slidingRatMonkaS") {
         this.id = "slidingRatChomp";
     }
