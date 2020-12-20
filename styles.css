@@ -205,7 +205,6 @@ a:active {
 }
 
 .slidingBackground {
-    background-color: #333133;
     height: 3240px;
     width: 3240px;
     margin-bottom: -2700px;
@@ -214,10 +213,12 @@ a:active {
 
 #slidingRats {
     background: url("images/RatMonkaS.png") repeat;
+    background-color: #333133;
 }
 
 #slidingPlutos {
     background: url("images/Jermapluto.png") repeat;
+    background-color: #333133;
 }
 
 @keyframes slide {
