@@ -199,3 +199,23 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
+
+.wrapper {
+    overflow: hidden;
+}
+
+.sliding-background {
+    background: url("images/Jermapluto.png") repeat;
+    height: 3240px;
+    width: 3240px;
+    animation: slide 60s linear infinite;
+}
+
+@keyframes slide {
+    0%{
+          transform: translate3d(0, 0, 0);
+      }
+    100%{
+        transform: translate3d(-1080px, -1080px, 0)
+    }
+}
