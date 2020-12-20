@@ -66,7 +66,7 @@ article > div {
 
 .onTime {
     text-align: left;
-    background-color: #FFD700;
+    background-color: goldenrod;
     padding-bottom: 30px;
     padding-top: 20px;
 }
@@ -76,7 +76,7 @@ article > div {
     text-align: center;
     font-size: 105%;
     width: 100vw;
-    background-color: #D1B000;
+    background-color: darkgoldenrod;
     margin-left: -10.5vw;
     margin-top: -20px;
     margin-bottom: 5px;
