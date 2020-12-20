@@ -71,7 +71,8 @@ article > div {
     padding-top: 20px;
 }
 
-.onTime > .lh {
+#onTimeTitle {
+    text-align: left;
     text-align: center;
     font-size: 105%;
     width: 100vw;
@@ -88,7 +89,7 @@ article > div {
     padding-top: 20px;
 }
 
-.early > .lh {
+#earlyTitle {
     text-align: center;
     font-size: 105%;
     width: 100vw;
@@ -114,7 +115,7 @@ article > div {
     padding-top: 20px;
 }
 
-.late > .lh {
+#lateTitle {
     text-align: center;
     font-size: 105%;
     width: 100vw;
