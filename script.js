@@ -18,15 +18,15 @@ for (i = 0; i < coll.length; i++) {
 
 function changeImage() {
     if (back.id == "slidingRatMonkaS") {
-        back.id = "slidingRatChomp";
+        back.setAttribute("id", "slidingRatChomp");
     }
     else if (back.id == "slidingRatChomp") {
-        this.id = "slidingRatMonkaS";
+        back.setAttribute("id", "slidingRatMonkaS");
     }
     else if (back.id == "slidingPluto") {
-        this.id = "slidingRad";
+        back.setAttribute("id", "slidingRad");
     }
     else if (back.id == "slidingRad") {
-        this.id = "slidingPluto";
+        back.setAttribute("id", "slidingPluto");
     }
 }
