@@ -204,8 +204,7 @@ a:active {
     overflow: hidden;
 }
 
-#slidingRats {
-    background: url("images/RatMonkaS.png") repeat;
+.sliding-background {
     background-color: #333133;
     height: 3240px;
     width: 3240px;
@@ -213,13 +212,12 @@ a:active {
     animation: slide 20s linear infinite;
 }
 
+#slidingRats {
+    background: url("images/RatMonkaS.png") repeat;
+}
+
 #slidingPlutos {
     background: url("images/Jermapluto.png") repeat;
-    background-color: #333133;
-    height: 3240px;
-    width: 3240px;
-    margin-bottom: -2700px;
-    animation: slide 20s linear infinite;
 }
 
 @keyframes slide {
