@@ -240,3 +240,22 @@ a:active {
         transform: translate3d(-1120px, -1120px, 0)
     }
 }
+
+.counter {
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Raleway',sans-serif;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    color: white;
+}
+
+#minutes {
+
+}
+
+#promises {
+
+}
