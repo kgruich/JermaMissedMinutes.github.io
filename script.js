@@ -1,4 +1,6 @@
 var coll = document.getElementsByClassName("collapsible");
+var back = document.getElementsByClassName("slidingBackground");
+
 var i;
 var j;
 
@@ -15,16 +17,16 @@ for (i = 0; i < coll.length; i++) {
 }
 
 function changeImage() {
-    if (document.getElementByClassName("slidingBackground").id = "slidingRatMonkaS") {
+    if (back.id == "slidingRatMonkaS") {
         this.id = "slidingRatChomp";
     }
-    else if (document.getElementByClassName("slidingBackground").id = "slidingRatChomp") {
+    else if ((back.id == "slidingRatChomp") {
         this.id = "slidingRatMonkaS";
     }
-    else if (document.getElementByClassName("slidingBackground").id = "slidingPluto") {
+    else if ((back.id == "slidingPluto") {
         this.id = "slidingRad";
     }
-    else if (document.getElementByClassName("slidingBackground").id = "slidingRad") {
+    else if ((back.id == "slidingRad") {
         this.id = "slidingPluto";
     }
 }
