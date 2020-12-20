@@ -21,23 +21,24 @@ var noLifeNerd = new Audio('sounds/noLifeNerd.mp3')
 var back = document.getElementsByClassName("slidingBackground");
 var j;
 
-function changeImage() {
-    for (j = 0; j < back.length; j++) {
-        if (back[j].id == "slidingRatMonkaS") {
-            back[j].setAttribute("id", "slidingRatChomp");
-            crackTime.play();
-        }
-        else if (back[j].id == "slidingRatChomp") {
-            back[j].setAttribute("id", "slidingRatMonkaS");
-            monkaS.play();
-        }
-        else if (back[j].id == "slidingPluto") {
-            back[j].setAttribute("id", "slidingRad");
-            pogSFX.play();
-        }
-        else if (back[j].id == "slidingRad") {
-            back[j].setAttribute("id", "slidingPluto");
-            noLifeNerd.play();
-        }
+function changeImageRats() {
+    if (back[0].id == "slidingRatMonkaS") {
+        back[0].setAttribute("id", "slidingRatChomp");
+        crackTime.play();
+    }
+    else if (back[0].id == "slidingRatChomp") {
+        back[0].setAttribute("id", "slidingRatMonkaS");
+        monkaS.play();
+    }
+}
+
+function changeImageJerma() {
+    if (back[1].id == "slidingPluto") {
+        back[1].setAttribute("id", "slidingRad");
+        pogSFX.play();
+    }
+    else if (back[1].id == "slidingRad") {
+        back[1].setAttribute("id", "slidingPluto");
+        noLifeNerd.play();
     }
 }
