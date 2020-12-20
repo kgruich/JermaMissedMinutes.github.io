@@ -22,14 +22,14 @@ header {
 }
 
 .top {
-    font-size: 4vh;
+    height: 14vh;
     font-weight: 800;
 }
 
 .section {
     font-weight: 600;
     height: 5vh;
-    font-size: 3vh;
+    font-size: 2vh;
 }
 
 li {
