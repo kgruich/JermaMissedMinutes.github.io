@@ -205,6 +205,7 @@ a:active {
 }
 
 .slidingBackground {
+    z-index: 0;
     height: 3248px;
     width: 3248px;
     margin-bottom: -2688px;
@@ -242,9 +243,11 @@ a:active {
 }
 
 .counter {
+    z-index: 1;
     text-align: center;
     font-weight: 600;
     font-family: 'Raleway',sans-serif;
+    font-size: 3vh;
     justify-content: center;
     align-items: center;
     overflow: hidden;
