@@ -133,17 +133,41 @@
             </ul>
         </div>
 
-    <footer>
-        <p>
-            Made by Porkako#3550 for fun and to learn basic HTML, CSS, and JS.<br>
-            Inspired by the <a href="https://debt.jerma.io/">Jerma Debt Tracker</a>.<br>
-            <a href="https://github.com/kgruich/JermaMissedMinutes.github.io">Questionable source code on GitHub</a> <br>
-        </p>
-    </footer>
+        <footer>
+            <p>
+                Made by Porkako#3550 for fun and to learn basic HTML, CSS, and JS.<br>
+                Inspired by the <a href="https://debt.jerma.io/">Jerma Debt Tracker</a>.<br>
+                <a href="https://github.com/kgruich/JermaMissedMinutes.github.io">Questionable source code on GitHub</a> <br>
+            </p>
+        </footer>
 
     </article>
 
     <script src="script.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyDL4vSipbtl9AzQDzV7wSwRBlphKXvHj_g",
+            authDomain: "jermatrakerdatabase.firebaseapp.com",
+            projectId: "jermatrakerdatabase",
+            storageBucket: "jermatrakerdatabase.appspot.com",
+            messagingSenderId: "600209492019",
+            appId: "1:600209492019:web:56b2d4911cab0ff0b37b46",
+            measurementId: "G-9Q82YX2R7N"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
 
 </body>
 
