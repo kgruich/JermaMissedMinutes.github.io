@@ -247,12 +247,20 @@ a:active {
     text-align: center;
     font-weight: 600;
     font-family: 'Raleway',sans-serif;
-    font-size: 3vh;
+    font-size: 11vh;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     display: flex;
     color: white;
+    max-height: 560px;
+    position: relative;
+    bottom: 280px;
+    text-shadow: -1px -1px 0 #000, 
+                  1px -1px 0 #000, 
+                 -1px 1px 0 #000, 
+                  1px 1px 0 #000;
+
 }
 
 #minutes {
